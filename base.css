@@ -1,16 +1,23 @@
-div.a div.b div.c div.d div.e div.f div.g div.h{
+/* div.a div.b div.c div.d div.e div.f div.g div.h{
   text-align: center;
-}
+} */
 body{
-  justify-content: center;
+  margin: auto;
 }
 #wrapper{
+  justify-content: center;
   display: grid;
   grid-template-columns: repeat(96, 10px);
   gap: 0px;
   grid-template-rows: repeat(14, 50px);
 }
+/* div{
+  
+} */
 .a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 960px;
   height: 100px;
   text-align: center;
