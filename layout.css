@@ -7,83 +7,110 @@
     grid-template-rows: repeat(211, 5px);
   }
   .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 480px;
     height: 75px;
     text-align: center;
     /* border: thin solid black; */
-    background-color: aqua;
+    background-color: rgb(197, 182, 50);
     grid-column: 1 / 2;
     grid-row: 1 / 15;
   }
   .b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 480px;
     height: 150px;
     text-align: center;
     /* border: thin solid black; */
-    background-color: blanchedalmond;
+    background-color: rgb(129, 115, 93);
     grid-column: 1 / 2;
     grid-row: 16 / 45;
   }
   .c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 480px;
     height: 125px;
     text-align: center;
     /* border: thin solid black; */
-    background-color: blueviolet;
+    background-color: rgb(43, 55, 226);
     grid-column: 1 / 2;
     grid-row:46 / 70;
   }
   .d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 480px;
     height: 125px;
     text-align: center;
     /* border: thin solid black; */
-    background-color: brown;
+    background-color: rgb(170, 89, 89);
     grid-column: 1 / 2;
     grid-row: 71 / 95;
   }
   .e{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 240px;
     height: 250px;
     text-align: center;
     /* border: thin solid black; */
-    background-color: cadetblue;
+    background-color: rgb(21, 181, 187);
     grid-column: 1 / 1;
     grid-row: 96 / 147;
   }
   .f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 240px;
     height: 250px;
     text-align: center;
     /* border: thin solid black; */
-    background-color: chartreuse;
+    background-color: rgb(157, 216, 97);
     grid-column: 2 / 2 ;
     grid-row: 96 / 145;
   }
   .g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 240px;
     height: 250px;
     text-align: center;
     /* border: thin solid black; */
-    background-color: crimson;
+    background-color: rgb(131, 35, 54);
     grid-column: 1 / 2;
     grid-row: 146 / 195;
   }
   .h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 240px;
     height: 250px;
     text-align: center;
     /* border: thin solid black; */
-    background-color: darkorange;
+    background-color: rgb(245, 186, 115);
     grid-column: 2 / 2;
     grid-row: 146 / 195;
   }
   .i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 480px;
     height: 80px;
     text-align: center;
     /* border: thin solid black; */
-    background-color: forestgreen;
+    background-color: rgb(117, 230, 117);
     grid-column: 1 / 2;
     grid-row: 196 / 211;
   }

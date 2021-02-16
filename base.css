@@ -27,6 +27,9 @@ body{
   grid-row: 1 / 2;
 }
 .b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 600px;
   text-align: center;
@@ -36,6 +39,9 @@ body{
   grid-row: 3 / 20;
 }
 .c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 380px;
   height: 200px;
   text-align: center;
@@ -45,6 +51,9 @@ body{
   grid-row: 3 / 6;
 }
 .d{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 380px;
   height: 200px;
   text-align: center;
@@ -54,6 +63,9 @@ body{
   grid-row: 3 / 6;
 }
 .e{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 190px;
   height: 250px;
   text-align: center;
@@ -63,6 +75,9 @@ body{
   grid-row: 7 / 11;
 }
 .f{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 190px;
   height: 250px;
   text-align: center;
@@ -72,6 +87,9 @@ body{
   grid-row: 7 / 11;
 }
 .g{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 190px;
   height: 250px;
   text-align: center;
@@ -81,6 +99,9 @@ body{
   grid-row: 7 / 11;
 }
 .h{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 190px;
   height: 250px;
   text-align: center;
@@ -90,6 +111,9 @@ body{
   grid-row: 7 / 11;
 }
 .i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 760px;
   height: 150px;
   text-align: center;
