@@ -1,117 +1,110 @@
-
-@media only screen and (max-width:480px){
+@media screen and (min-width: 600px){
   #wrapper{
     display: grid;
-    grid-template-columns: repeat(2, 240px);
-    gap: 0px;
-    grid-template-rows: repeat(211, 5px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
   }
   .a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 75px;
-    text-align: center;
-    /* border: thin solid black; */
-    background-color: rgb(197, 182, 50);
+    background-color: rgb(250, 4, 54);
     grid-column: 1 / 2;
-    grid-row: 1 / 15;
+    grid-row: 1;
   }
   .b{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 150px;
-    text-align: center;
-    /* border: thin solid black; */
-    background-color: rgb(129, 115, 93);
-    grid-column: 1 / 2;
-    grid-row: 16 / 45;
+    background-color: rgb(221, 17, 95);
+    grid-column: 2 / 3;
+    grid-row: 1;
   }
   .c{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 125px;
-    text-align: center;
-    /* border: thin solid black; */
-    background-color: rgb(43, 55, 226);
-    grid-column: 1 / 2;
-    grid-row:46 / 70;
+    background-color: rgb(199, 29, 122);
+    grid-column: 3 / 4;
+    grid-row: 1;
   }
   .d{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 125px;
-    text-align: center;
-    /* border: thin solid black; */
-    background-color: rgb(170, 89, 89);
+    background-color: rgb(179, 35, 179);
     grid-column: 1 / 2;
-    grid-row: 71 / 95;
+    grid-row: 2;
   }
   .e{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 250px;
-    text-align: center;
-    /* border: thin solid black; */
-    background-color: rgb(21, 181, 187);
-    grid-column: 1 / 1;
-    grid-row: 96 / 147;
+    background-color: rgb(131, 40, 158);
+    grid-column: 2 / 3;
+    grid-row: 2;
   }
   .f{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 250px;
-    text-align: center;
-    /* border: thin solid black; */
-    background-color: rgb(157, 216, 97);
-    grid-column: 2 / 2 ;
-    grid-row: 96 / 145;
+    background-color: rgb(73, 44, 143);
+    grid-column: 3 / 4;
+    grid-row: 2;
   }
   .g{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 250px;
-    text-align: center;
-    /* border: thin solid black; */
-    background-color: rgb(131, 35, 54);
+    background-color: rgb(46, 44, 143);
     grid-column: 1 / 2;
-    grid-row: 146 / 195;
+    grid-row: 3;
   }
   .h{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 250px;
-    text-align: center;
-    /* border: thin solid black; */
-    background-color: rgb(245, 186, 115);
-    grid-column: 2 / 2;
-    grid-row: 146 / 195;
+    background-color: rgb(44, 99, 143);
+    grid-column: 2 / 3;
+    grid-row: 3;
   }
   .i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 480px;
-    height: 80px;
-    text-align: center;
-    /* border: thin solid black; */
-    background-color: rgb(117, 230, 117);
+    background-color: rgb(44, 143, 66);
+    grid-column: 3 / 4;
+    grid-row: 3;
+  }
+}
+
+@media screen and (min-width:900px){
+  #wrapper{
+    display: grid;
+    grid-template-columns: 1.05fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 250px 150px;
+  }
+  .a{
+    background-color: rgb(255, 255, 255);
+    grid-column: 1 / 6;
+    grid-row: 1;
+  }
+  .b{
+    background-color: rgb(223, 223, 223);
     grid-column: 1 / 2;
-    grid-row: 196 / 211;
+    grid-row: 2 / 5;
+  }
+  .c{
+    background-color: rgb(190, 190, 190);
+    grid-column: 2 / 4;
+    grid-row: 2;
+  }
+  .d{
+    background-color: rgb(145, 145, 145);
+    grid-column: 4 / 6;
+    grid-row: 2;
+  }
+  .e{
+    color:white;
+    background-color: rgb(109, 109, 109);
+    grid-column: 2 / 3;
+    grid-row: 3;
+  }
+  .f{
+    color: white;
+    background-color: rgb(73, 73, 73);
+    grid-column: 3 / 4;
+    grid-row: 3;
+  }
+  .g{
+    color: white;
+    background-color: rgb(48, 48, 48);
+    grid-column: 4 / 5;
+    grid-row: 3;
+  }
+  .h{
+    color: white;
+    background-color: rgb(29, 29, 29);
+    grid-column: 5 / 6;
+    grid-row: 3;
+  }
+  .i{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    grid-column: 2 / 6;
+    grid-row: 4;
   }
 }
